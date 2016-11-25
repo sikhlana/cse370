@@ -1,7 +1,7 @@
 CSE370 Project: Cineplex
 ========================
 
-![https://images.gfnlabs.com/images/2016/11/25/2916da74165d2c906bafd350d17f09d3.png](Cineplex)
+![Cineplex](https://images.gfnlabs.com/images/2016/11/25/2916da74165d2c906bafd350d17f09d3.png)
 
 This application was built as our final group project for the course CSE370.
 The main purpose of this repository is to backup our work publicly so that no other student can copy our concept and also as a proof of our work.
