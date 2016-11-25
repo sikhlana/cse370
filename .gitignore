@@ -5,6 +5,8 @@ library/App/Input.php
 library/App/Router.php
 library/App/Locale.php
 library/App/Upload.php
+library/App/Helper/File.php
+library/App/Helper/Image.php
 library/Lgpl/
 library/Minify/
 library/Zend/
