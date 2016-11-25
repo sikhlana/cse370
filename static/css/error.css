@@ -1,0 +1,14 @@
+.errorCode
+{
+    font-family: "Abril Fatface";
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.errorMessage
+{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 0 30px;
+}

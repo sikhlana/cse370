@@ -1,0 +1,22 @@
+.PasswordMeter
+{
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 1px;
+    width: calc(100% - 2px);
+}
+
+.PasswordMeter,
+.PasswordMeter .Strength
+{
+    display: block;
+    height: 5px;
+    background: #f2f2f2;
+}
+
+.PasswordMeter .Strength
+{
+    width: 0;
+    transition: background .1s linear, width .2s linear;
+    background: #BF3100;
+}

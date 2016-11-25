@@ -1,0 +1,73 @@
+.screen
+{
+    width: 100%;
+    text-align: center;
+    color: #353238;
+    font-family: "Open Sans";
+    font-weight: 300;
+    padding: 20px 0 30px;
+}
+
+.screen::after
+{
+    display: block;
+    content: '';
+    height: 5px;
+    width: 100%;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.verticalWalkway
+{
+    display: block;
+    width: 2%;
+    float: left;
+    height: 1px;
+}
+
+.horizontalWalkway
+{
+    display: block;
+    width: 100%;
+    height: 15px;
+    float: left;
+}
+
+button.seat
+{
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    background: url(../images/seat/default.svg) no-repeat center center / 90% 100% rgba(0,0,0,0);
+    height: 60px;
+    border: none;
+    padding: 0 0 26px;
+    font-size: 12px;
+    color: #b5b5b5;
+    float: left;
+}
+
+button.seat:hover
+{
+    background-image: url(../images/seat/hover.svg);
+    color: #5f6066;
+}
+
+button.seat.disabled
+{
+    color: #f15152;
+    background-image: url(../images/seat/disabled.svg);
+    cursor: not-allowed;
+}
+
+button.seat.selected
+{
+    color: #44ccff;
+    background-image: url(../images/seat/selected.svg);
+}
+
+.SeatInformation
+{
+    text-align: right;
+}

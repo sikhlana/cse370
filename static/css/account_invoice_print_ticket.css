@@ -1,0 +1,55 @@
+header.section,
+footer.section
+{
+    display: none;
+}
+
+.ticketList
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.ticketList li
+{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.ticketList li:not(:last-child)
+{
+    border-bottom: 1px solid #dfe4ed;
+}
+
+.ticketList .price
+{
+    float: right;
+    font-size: 13px;
+    line-height: 1;
+    padding: 16px 8px;
+    border-radius: 3px;
+    border: 1px solid #dfe4ed;
+    color: #acb0b7;
+}
+
+.ticketList h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ticketList .ticketDetails
+{
+    margin: 0;
+    font-size: 13px;
+}
+
+.ticketList .ticketDetails span
+{
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+}

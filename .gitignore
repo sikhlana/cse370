@@ -1,0 +1,12 @@
+.idea/
+.templates/PAGE_CONTAINER.php
+library/App.php
+library/App/Input.php
+library/App/Router.php
+library/App/Locale.php
+library/App/Upload.php
+library/Lgpl/
+library/Minify/
+library/Zend/
+static/js/xenforo/
+static/js/jquery/jquery.xenforo.rollup.js

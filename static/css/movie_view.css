@@ -1,0 +1,94 @@
+.movieContainer
+{
+    padding-top: 30px;
+}
+
+.movieTitle
+{
+    margin: 0;
+}
+
+.movieMeta
+{
+    font-size: 13px;
+    color: #4f5663;
+    padding: 10px 0;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+.movieMeta > span
+{
+    padding: 5px 0;
+    box-sizing: content-box;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.movieMeta > span:not(:last-child)
+{
+    border-right: 1px solid #dfe4ed;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+
+.movieSynopsis
+{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4;
+    display: block;
+}
+
+.movieTrailer
+{
+    padding: 20px 5px;
+}
+
+.movieDetails
+{
+    margin-top: 30px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.movieDetails h4
+{
+    padding: 15px 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.hallInfo
+{
+    max-width: 400px;
+}
+
+.button.wishlist
+{
+    float: right;
+}
+
+.feedbackList
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.feedbackList li
+{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #dfe4ed;
+}
+
+.Star
+{
+    cursor: pointer;
+}

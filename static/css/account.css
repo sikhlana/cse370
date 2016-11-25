@@ -1,0 +1,100 @@
+ul.accountLink
+{
+    list-style: none outside none;
+    padding: 10px;
+    margin: 0;
+}
+
+ul.accountLink li
+{
+    display: block;
+    background: #edeff2;
+}
+
+ul.accountLink li a
+{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: #201b21;
+}
+
+ul.accountLink li:hover,
+ul.accountLink li.selected
+{
+    background: #a0dfff;
+}
+
+.wishlist
+{
+    list-style: none outside none;
+    clear: both;
+    overflow: hidden;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.wishlist .moviePoster
+{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.orderList
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.orderList li
+{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.orderList li:not(:last-child)
+{
+    border-bottom: 1px solid #dfe4ed;
+}
+
+.orderList .orderStatus
+{
+    float: right;
+    font-size: 13px;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #dfe4ed;
+    color: #acb0b7;
+    text-transform: uppercase;
+}
+
+.orderList .orderStatus.paid
+{
+    color: #ffffff;
+    border-color: #84c940;
+    background: #84c940;
+}
+
+.orderList h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.orderList .orderDetails
+{
+    margin: 0;
+    font-size: 13px;
+}
+
+.orderList .orderDetails span
+{
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+}

@@ -1,0 +1,49 @@
+.movieShowtimes
+{
+    list-style: none outside none;
+    padding: 0 0 0 10px;
+    margin: 0;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.movieShowtimes h3.date
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.hallList
+{
+    list-style: none outside none;
+    padding: 10px;
+    margin: 0;
+}
+
+.hallItem .hallName
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 15px;
+    display: inline-block;
+    width: 100%;
+    max-width: 120px;
+}
+
+.timings
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.timings li
+{
+    display: inline-block;
+    padding: 0 5px;
+}

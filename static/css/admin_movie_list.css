@@ -1,0 +1,26 @@
+.movieThumb
+{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.dataList > ol > li > a
+{
+    clear: both;
+    overflow: hidden;
+}
+
+.dataList > ol h4,
+.movieSnippet
+{
+    margin-left: 10px;
+}
+
+.movieSnippet
+{
+    color: #1d657f;
+    font-size: 13px;
+    display: block;
+    max-width: 800px;
+}

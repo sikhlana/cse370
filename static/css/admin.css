@@ -1,0 +1,93 @@
+.topCtrl
+{
+    text-align: right;
+}
+
+.topCtrl .button
+{
+    width: auto;
+}
+
+.container.section
+{
+    padding: 10px 10px 20px;
+}
+
+.sectionHeader
+{
+    background: #43c9f9;
+    padding: 15px 10px;
+}
+
+.sectionHeader h3
+{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.dataList > ol
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #def2f9;
+    border-right: 1px solid #def2f9;
+}
+
+.dataList > ol > li
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.dataList > ol > li:hover
+{
+    background: #f7fcff;
+}
+
+.dataList > ol > li > a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none !important;
+}
+
+.dataList > ol > li > a > h4
+{
+    margin: 0;
+    font-size: 18px;
+}
+
+.dataList .deleteButton
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    right: 0;
+    box-sizing: content-box;
+    background: url('../images/error.png') no-repeat center center / 60% 60% rgba(0,0,0,0);
+}
+
+.sectionFooter
+{
+    background: #def2f9;
+    padding: 10px;
+}
+
+.sectionFooter .footerText
+{
+    text-align: right;
+    display: block;
+    color: #4c7584;
+    font-weight: 300;
+    font-size: 11px;
+    margin: 0;
+    line-height: 1.2;
+}
